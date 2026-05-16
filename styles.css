@@ -1,0 +1,53 @@
+body {
+    font-family: "Source Code Pro", monospace;
+    color: #654321; /* deep dark brown */
+    background-color: #A67B5B; /* French Beige */
+    margin: 10px;
+    padding: 10px;
+}
+
+/* nav-list */
+.navbar {
+    display: flex;
+    background-color: #C19A6B; /* camel beige */ 
+    padding: 20px 30px;
+    margin: 0;
+    list-style-type: none;
+    border-radius: 5px;
+}
+
+.navbar a {
+    color: #EED9C4; /* almond beige */
+    text-decoration: none;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+/* HOME - #FFBDF2 */
+#index a:hover {
+    text-shadow: 0 0 5px #FFE8FF;
+    background: linear-gradient(90deg, #FFBDF2, #FFBDF2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* countdown - #BDFFEB */ 
+#countdown a:hover {
+    text-shadow: 0 0 5px #BDFFEB; 
+    background: linear-gradient(90deg, #BDFFEB, #BDFFEB);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* counter - #C9D7FF */ 
+#counter a:hover {
+    text-shadow: 0 0 5px #C9D7FF;
+    background: linear-gradient(90deg, #C9D7FF, #C9D7FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}

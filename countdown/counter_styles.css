@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#timer {
+    font-size: 48px;
+    margin: 20px 0;
+    color: #007bff;
+}
+
+input#time-input {
+    padding: 8px;
+    margin: 10px;
+    font-size: 1em;
+    width: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#start-button {
+    background-color: #28a745;
+    color: white;
+}
+
+button#reset-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.blink {
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
